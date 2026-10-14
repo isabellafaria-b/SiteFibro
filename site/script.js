@@ -120,8 +120,8 @@ function selectAnswer(event){
 
 function end(){
     resetState();
-    questionElement.innerHTML = `Você acertou ${score} de ${questions.length}! Obrigado por apoiar a turma da 
-    1ª série B. Se quiser, você pode ter a chance de refazer o nosso quiz clicando no botão abaixo!`;
+    questionElement.innerHTML = `<strong>Parabéns!</strong> Você acertou ${score} de ${questions.length} questões.<br><br>
+    Obrigado por apoiar a turma da 1ª série B, esperamos que você goste do nosso trabalho!`;
     nextButton.innerHTML = "Tente novamente";
 
     const containerBarra = document.querySelector('.prgsContainer');

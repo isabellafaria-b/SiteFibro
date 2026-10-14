@@ -12,8 +12,8 @@ body {
 .app {
     background: #ececd1;
     width: 90%;
-    max-width: 600px;
-    margin: 65px auto 0;
+    max-width: 590px;
+    margin: 50px auto 0;
     padding: 20px;
     border-radius: 7px;
 }
@@ -96,6 +96,7 @@ body {
 .erradao {
     background: #d89191;
 }
+
 
 /*.btn:hover {
     border-color: rgb(32, 58, 36);
