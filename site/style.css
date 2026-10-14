@@ -13,8 +13,8 @@ body {
     background: #ececd1;
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
-    padding: 25px;
+    margin: 65px auto 0;
+    padding: 20px;
     border-radius: 7px;
 }
 
@@ -89,7 +89,15 @@ body {
     transition: width 0.4s ease;
 }
 
-.btn:hover {
+.certinho {
+    background: #9fd891;
+}
+
+.erradao {
+    background: #d89191;
+}
+
+/*.btn:hover {
     border-color: rgb(32, 58, 36);
 }
 
@@ -97,4 +105,4 @@ body {
     background: rgb(32, 58, 36);
     color: #ececd1;
     border-color: rgb(32, 58, 36);
-}
+}*/
